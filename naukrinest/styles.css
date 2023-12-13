@@ -62,7 +62,7 @@ nav img {
     border-bottom: 1px solid;
 }
 
-#section-1 {
+.section-1 {
     padding: 70px 00px;
     background-color: #fff;
     display: flex;
@@ -158,7 +158,7 @@ nav img {
     cursor: pointer;
     font-size: 2.25rem;
     font-weight: bold;
-    margin-top:0 ;
+    margin-top: 0;
     padding-bottom: 50px;
 }
 .modal1 {
@@ -172,6 +172,7 @@ nav img {
     background-color: #fff;
     max-width: 80%;
     transition: 200ms ease-in-out;
+    overflow: scroll;
 }
 .modal1.active {
     transform: translate(-50%, -50%) scale(1);
@@ -232,4 +233,42 @@ footer {
 #overlay.active {
     opacity: 1;
     pointer-events: all;
+}
+@media all and (max-width: 1024px) {
+    nav a {
+        font-size: 4px;
+    }
+    .section-1 {
+        padding: 0px 0;
+    }
+    #text p {
+        font-size: 3px;
+    }
+    #text h2 {
+        font-size: 4px;
+    }
+    img {
+        height: 100px;
+    }
+    .master {
+        padding-top: 30%;
+    }
+    #illustrations {
+        height: 100px;
+        width: 100px;
+    }
+    button {
+        margin-top: 2px;
+        width: 50px;
+        height: 10px;
+        font-size: 8px;
+    }
+    #section-2 h1 {
+        margin: 1px 0;
+        font-size: 4px;
+    }
+    footer {
+        font-size: 4px;
+        height: 10px;
+    }
 }
