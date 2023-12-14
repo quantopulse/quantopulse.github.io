@@ -26,6 +26,10 @@ button {
     margin-top: 15px;
     border-radius: 15px;
     cursor: pointer;
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(1.2);
 }
 nav {
     width: 100%;
@@ -36,8 +40,8 @@ nav {
 }
 
 nav img {
-    height: 60px;
-    width: 60px;
+    height: 150px;
+    width: 150px;
 }
 #nav-left {
     width: 50%;
@@ -75,6 +79,7 @@ nav img {
     display: flex;
     padding: 20px 5%;
     background-color: #0588a8;
+    margin-bottom: 20px;
 }
 #section-2 h1 {
     margin: 10px 0px;
@@ -107,7 +112,9 @@ nav img {
 #text p {
     width: 60%;
 }
-
+#vision p {
+    width: 80%;
+}
 #left,
 #right {
     flex: 50%;
@@ -119,6 +126,7 @@ nav img {
 #left img,
 #right img {
     position: absolute;
+    /* height: 60%; */
     width: 35%;
 }
 .modal {
@@ -211,6 +219,7 @@ nav img {
 }
 
 footer {
+    margin-top: 15px;
     background: #0f123d;
     width: 100%;
     height: 60px;
@@ -271,4 +280,10 @@ footer {
         font-size: 4px;
         height: 10px;
     }
+}
+#get-in-touch img {
+    transform: rotate(180deg);
+}
+i {
+    font-size: 25px;
 }
