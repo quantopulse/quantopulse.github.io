@@ -69,3 +69,53 @@ function closeModal1(modal1) {
     modal1.classList.remove("active");
     overlay.classList.remove("active");
 }
+const openModalButtons2 = document.querySelectorAll("[data-modal-target]");
+const closeModalButtons2 = document.querySelectorAll("[data-close-button]");
+
+openModalButtons2.forEach((button) => {
+    button.addEventListener("click", () => {
+        const modal2 = document.querySelector(button.dataset.modalTarget);
+        openModal2(modal2);
+    });
+});
+
+overlay.addEventListener("click", () => {
+    const modals2 = document.querySelectorAll(".modal2.active");
+    modals2.forEach((modal2) => {
+        closeModal2(modal2);
+    });
+});
+
+closeModalButtons2.forEach((button) => {
+    button.addEventListener("click", () => {
+        const modal2 = button.closest(".modal2");
+        closeModal2(modal2);
+    });
+});
+
+function openModal2(modal2) {
+    if (modal2 == null) return;
+    modal2.classList.add("active");
+    overlay.classList.add("active");
+}
+
+function closeModal2(modal2) {
+    if (modal2 == null) return;
+    modal2.classList.remove("active");
+    overlay.classList.remove("active");
+}
+
+window.addEventListener("scroll", () => {
+    const modal2 = document.getElementById("modal2");
+    const endPosition = end.getBoundingClientRect().top + window.scrollY;
+    const screenPosition = window.innerHeight + window.scrollY;
+
+    if (screenPosition > endPosition) {
+        openModal2(modal2);
+    }
+});
+
+
+
+
+

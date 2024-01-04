@@ -226,7 +226,46 @@ nav img {
 .modal1-body p {
     margin-bottom: 20px;
 }
-
+.modal2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #fff;
+    max-width: 80%;
+    transition: 200ms ease-in-out;
+}
+.modal2.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+.modal2-body {
+    color: #0f123d;
+    padding: 10px 15px;
+}
+.modal2-body p {
+    color: #0f123d;
+}
+.modal2-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal2-header .title h2 {
+    color: #0f123d;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.modal2-header .close-button {
+    cursor: pointer;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
 footer {
     margin-top: 15px;
     background: #0f123d;
