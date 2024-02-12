@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0af09196.css",
+    "main.js": "/static/js/main.af5c8957.js",
+    "static/js/787.289f6a76.chunk.js": "/static/js/787.289f6a76.chunk.js",
+    "static/media/lefthome.jpg": "/static/media/lefthome.00cc5400a32df83221b3.jpg",
+    "static/media/oval.jpg": "/static/media/oval.7e2aae68851bf4d421aa.jpg",
+    "static/media/righthome.jpg": "/static/media/righthome.17bbb0a7d63eb5d96652.jpg",
+    "static/media/Homeimage.jpg": "/static/media/Homeimage.cca581651bc4294f6ef2.jpg",
+    "static/media/NunitoSans_10pt-Medium.ttf": "/static/media/NunitoSans_10pt-Medium.56938cd09e3a04e0972a.ttf",
+    "static/media/NunitoSans_10pt-Bold.ttf": "/static/media/NunitoSans_10pt-Bold.e43c5a897c0189a89b62.ttf",
+    "static/media/NunitoSans_10pt-Light.ttf": "/static/media/NunitoSans_10pt-Light.d120ae23d1fe91716bf9.ttf",
+    "static/media/Satisfy-Regular.ttf": "/static/media/Satisfy-Regular.32a6713537cf5e1e82f2.ttf",
+    "index.html": "/index.html",
+    "main.0af09196.css.map": "/static/css/main.0af09196.css.map",
+    "main.af5c8957.js.map": "/static/js/main.af5c8957.js.map",
+    "787.289f6a76.chunk.js.map": "/static/js/787.289f6a76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0af09196.css",
+    "static/js/main.af5c8957.js"
+  ]
+}
